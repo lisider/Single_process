@@ -1,0 +1,29 @@
+设计了一个数据库文件,三张表
+
+stu_info
+
+score_info
+
+dep_info
+
+
+
+
+
+create table stu_info (id text primary key,name text,sex integer,age integer ,depid integer);
+
+insert into stu_info(id,name,sex,age,depid) values('20170001','xiaoming',1,18,1);
+
+insert into stu_info(id,name,sex,age,depid) values('20170002','xiaohang',0,19,0);
+
+insert into stu_info(id,name,sex,age,depid) values('20170002','xiaohong',1,19,0);
+
+create table score_info (id text primary key,score1 integer,score2 integer,score3 integer,sum integer);
+
+insert into  score_info(id,score1,score2,score3,sum) values('20170001',60,70,80,70);
+
+
+create table dep_info (id integer primary key,name text,dean text,location text);
+
+insert into dep_info(id,name,dean,location) values(1,'CCST','Doc Wang','zhongshan1hao');
+

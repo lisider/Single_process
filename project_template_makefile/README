@@ -1,0 +1,29 @@
+
+涉及到
+doc
+	文档
+
+data
+	数据文件
+
+modules
+	模块位置
+
+utils
+	实用工具
+
+inc
+	所有的头文件
+
+
+make 框架
+	
+	最上层的 makefile 
+		将 本层目录中的所有 .c .cpp 编译成 .o
+		连接 所有 下层 目录 中 的 build_in.o 和本层的 .o 到 终极目标中
+
+	其他目录中 的makefile
+		将 本层目录中的所有 .c .cpp 编译成 .o
+		连接 所有 下层 目录 中 的 build_in.o 和本层的 .o 到 本层 的 build_in.o 中
+		
+

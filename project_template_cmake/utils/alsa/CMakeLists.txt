@@ -1,0 +1,2 @@
+AUX_SOURCE_DIRECTORY(. DIR_SRCS)
+add_library(alsa ${DIR_SRCS})

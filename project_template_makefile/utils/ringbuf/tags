@@ -1,0 +1,26 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+RINGBUF_ERR	ringbuf.c	9;"	d	file:
+RINGBUF_INFO	ringbuf.c	7;"	d	file:
+RINGBUF_T	ringbuf.c	/^} RINGBUF_T;$/;"	t	typeref:struct:__anon1	file:
+_ringbuf_get_available_size	ringbuf.c	/^static UINT32 _ringbuf_get_available_size(RINGBUF_T *pt_ringbuf)$/;"	f	file:
+_ringbuf_get_used_size	ringbuf.c	/^static UINT32 _ringbuf_get_used_size(RINGBUF_T *pt_ringbuf)$/;"	f	file:
+_ringbuf_read_data	ringbuf.c	/^static VOID _ringbuf_read_data(RINGBUF_T *pt_ringbuf, VOID *p_buf, UINT32 ui4_size)$/;"	f	file:
+_ringbuf_read_data_loopback	ringbuf.c	/^static VOID _ringbuf_read_data_loopback(RINGBUF_T *pt_ringbuf, VOID *p_buf, UINT32 ui4_size)$/;"	f	file:
+_ringbuf_write_data	ringbuf.c	/^static VOID _ringbuf_write_data(RINGBUF_T *pt_ringbuf, VOID *p_buf, UINT32 ui4_size)$/;"	f	file:
+_ringbuf_write_data_loopback	ringbuf.c	/^static VOID _ringbuf_write_data_loopback(RINGBUF_T *pt_ringbuf, VOID *p_buf, UINT32 ui4_size)$/;"	f	file:
+main	test.c	/^int main(int argc, const char *argv[])$/;"	f
+p_buf	ringbuf.c	/^    VOID *p_buf;$/;"	m	struct:__anon1	file:
+u_ringbuf_clear	ringbuf.c	/^INT32 u_ringbuf_clear(RINGBUF_H handle)$/;"	f
+u_ringbuf_free	ringbuf.c	/^VOID u_ringbuf_free(RINGBUF_H handle)$/;"	f
+u_ringbuf_get_used_size	ringbuf.c	/^INT32 u_ringbuf_get_used_size(RINGBUF_H handle)$/;"	f
+u_ringbuf_malloc	ringbuf.c	/^RINGBUF_H u_ringbuf_malloc(UINT32 ui4_size)$/;"	f
+u_ringbuf_read	ringbuf.c	/^INT32 u_ringbuf_read(RINGBUF_H handle, VOID *p_buf, UINT32 ui4_size)$/;"	f
+u_ringbuf_write	ringbuf.c	/^INT32 u_ringbuf_write(RINGBUF_H handle, VOID *p_data, UINT32 ui4_size)$/;"	f
+ui4_read	ringbuf.c	/^    UINT32 ui4_read;$/;"	m	struct:__anon1	file:
+ui4_size	ringbuf.c	/^    UINT32 ui4_size;$/;"	m	struct:__anon1	file:
+ui4_write	ringbuf.c	/^    UINT32 ui4_write;$/;"	m	struct:__anon1	file:

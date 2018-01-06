@@ -1,0 +1,60 @@
+WHAT IS THIS
+	cmake project demo
+
+----------------------------------------
+
+HOW TO USE
+	source build.sh
+
+----------------------------------------
+
+
+WHAT IN THIS
+
+涉及到
+doc
+	文档
+
+data
+	数据文件
+
+modules
+	模块位置
+
+utils
+	实用工具
+
+inc
+	所有的头文件
+
+
+cmake 框架
+	
+	最上层的 CMakeLists.txt
+		目标 为 main 
+		引用了本层文件
+		引用下层目录
+		写好 main 的依赖
+
+	其他目录中(非最底层) 的 CMakeLists.txt
+		目标 为 上一层 的依赖
+		引用本层文件
+		引用下层目录
+		写好 目标的依赖
+		
+	最底层的 CMakeLists.txt
+
+		目标 为 上一层 的依赖
+		引用本层文件
+
+
+----------------------------------------
+
+SOMETHING ELSE
+
+bug:
+	如果本层没有文件就会出现问题
+	CMake unable to determine linker language with xxx
+	只能加个文件解决问题
+
+
