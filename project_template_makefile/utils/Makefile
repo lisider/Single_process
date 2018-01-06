@@ -31,7 +31,7 @@ PWD:=$(shell pwd)
 pes_parent_dir:=$(shell basename $(PWD))
 
 
-exclude_dirs := 
+exclude_dirs := doc
 dirs := $(shell find . -maxdepth 1 -type d)
 dirs := $(basename $(patsubst ./%,%,$(dirs)))
 dirs := $(filter-out $(exclude_dirs),$(dirs))
